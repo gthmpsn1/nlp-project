@@ -1,0 +1,27 @@
+body {padding: 50px;}
+
+/* Typeography General*/
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    margin: 2em 1rem;
+}
+
+@media only screen and (min-width: 35em){
+    h1 {
+        font-size: 7em;
+        margin: 2em 4rem 1em;
+    }
+}
+
+h2 {
+    border-bottom: 1px solid #cc1;
+    font-family: 'Oxygen', Sans-Serif;
+    font-size: 3em;
+    color: rgb(14, 5, 118);
+}
+
+p {
+    line-height: 1.6em;
+    color: rgb(17, 3, 88);
+}

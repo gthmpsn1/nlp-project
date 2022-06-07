@@ -1,0 +1,13 @@
+.search-header {
+    font-size: 4em;
+    color: rgb(4, 4, 90);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 1px rgb(150, 234, 24);
+    &span {
+        color: rgb(150, 234, 24);
+        font-style: italic;
+        text-transform: uppercase;
+        text-decoration: underline;
+        -webkit-text-stroke: 1px black;
+    }
+}

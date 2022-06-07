@@ -1,0 +1,23 @@
+input {
+    width: 50em;
+    word-wrap: break-word;
+}
+.go-button {
+    width: 5em;
+    padding: 5px;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(4, 4, 90);
+    border: 2px solid rgb(150, 234, 24);
+    color: white;
+    &:hover {
+        width: 5em;
+        padding: 5px;
+        font-size: 2em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: rgb(150, 234, 24);
+        border: 2px solid rgb(4, 4, 90);
+        color: rgb(4, 4, 90);
+    }
+}
+
